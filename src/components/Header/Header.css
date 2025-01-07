@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+}
+
+.header .logo a {
+  color: var(--blue-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #999;
+}
+
+.header nav a:hover {
+  color: var(--blue-color);
+}
