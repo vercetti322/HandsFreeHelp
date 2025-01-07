@@ -1,0 +1,11 @@
+.steps {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+}
+
+.step {
+    text-align: center;
+    color: #fff;
+    max-width: 220px;
+}

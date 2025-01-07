@@ -1,3 +1,11 @@
+import Hero from '../Hero/Hero';
+import Steps from '../../Steps/Steps';
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Hero />
+      <Steps />
+    </div>
+  );
 }
