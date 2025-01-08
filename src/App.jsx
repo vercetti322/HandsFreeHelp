@@ -5,16 +5,16 @@ import About from './components/About/About';
 import Header from './components/Header/Header';
 import Pricing from './components/Pricing/Pricing';
 import Contact from './components/Contact/Contact';
-import Features from './components/Features/Features';
 import Copyright from './components/Copyright/Copyright';
+import Favicon from 'react-favicon';
 
 function App() {
   return (
     <>
+      <Favicon url="/favicon.ico?v=1" />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/features" element={<Features />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

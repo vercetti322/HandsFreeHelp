@@ -30,7 +30,7 @@
 }
 
 .hero button:active {
-  background-color: #999;
+  background-color: lightgray;
 }
 
 .hero .session {

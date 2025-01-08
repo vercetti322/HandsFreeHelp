@@ -8,7 +8,6 @@ export default function Header() {
         <Link to="/">HandsFreeHelp</Link>
       </div>
       <nav>
-        <Link to="/features">Features</Link>
         <Link to="/pricing">Pricing</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>

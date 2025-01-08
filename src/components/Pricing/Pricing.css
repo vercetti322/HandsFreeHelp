@@ -1,0 +1,24 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: var(--blue-color);
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+}
+
+.pricing h1 {
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
+}
+
+.pricing p {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.pricing .price-cards {
+  display: flex;
+  justify-content: space-around;
+}

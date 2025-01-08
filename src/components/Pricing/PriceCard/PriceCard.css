@@ -1,0 +1,23 @@
+.price-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 7.5px;
+  color: #333;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 7.5px;
+}
+
+.price-card h1 {
+  font-size: 3rem;
+}
+
+.price-card h2 {
+  font-size: 1.5rem;
+}
+
+.price-card li {
+  font-size: 0.8rem;
+  list-style-position: inside;
+}
